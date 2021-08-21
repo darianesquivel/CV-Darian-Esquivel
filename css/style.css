@@ -144,6 +144,12 @@ main {
   text-align: center;
 }
 
+.numeroTelefono {
+  text-decoration: none;
+  text-decoration: none;
+  list-style: none;
+}
+
 .containerInfo h3 {
   text-transform: uppercase;
   font-weight: 800;
