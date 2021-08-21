@@ -254,6 +254,10 @@ main {
   .sectionCertificados img {
     width: 80%;
   }
+
+  .containerRedes {
+    width: 70%;
+  }
 }
 
 /* ANIMACIONES */
