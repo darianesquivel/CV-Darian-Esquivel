@@ -529,11 +529,11 @@ main {
     background: #232423;
   }
 }
-/* @keyframes color-change-2x {
+@keyframes color-change-2x {
   0% {
     background: #000000;
   }
   100% {
     background: #232423;
   }
-} */
+}
