@@ -175,6 +175,11 @@ main {
   justify-content: space-evenly;
 }
 
+.containerRedes a img {
+  padding: 5px;
+  width: 40px;
+}
+
 /* SECTION CERTIFICADOS */
 
 .sectionCertificados {
