@@ -175,8 +175,13 @@ main {
   justify-content: space-evenly;
 }
 
+.containerRedes {
+  width: 50%;
+}
+
 .containerRedes a img {
   padding: 5px;
+  margin: 5px;
   width: 40px;
 }
 
