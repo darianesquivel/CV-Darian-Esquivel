@@ -333,11 +333,16 @@ main {
   .containerInfoEnlace {
     width: 90%;
   }
+  .proyectos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .sectionPortfolio {
   width: 100%;
-  height: 50vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -351,8 +356,6 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px;
-  margin: 10px;
   color: white;
 }
 
@@ -367,9 +370,9 @@ main {
   margin: 10px;
 }
 
-.sectionSobreMi {
+.proyecto {
   width: 100%;
-  height: 50vh;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -377,26 +380,27 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px;
-  margin: 10px;
-  color: white;
+  text-align: center;
 }
 
-.sectionSobreMi h2 {
-  padding: 10px;
-  margin: 10px;
-  text-transform: uppercase;
+.proyecto img {
+  width: 90%;
 }
 
-.sectionSobreMi h3 {
-  padding: 10px;
-  margin: 10px;
+.proyectos {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /* ANIMACIONES */
