@@ -206,7 +206,7 @@ main {
 }
 
 .containerInfoEnlace {
-  width: 100%;
+  width: 70%;
   height: 50vh;
   opacity: 1;
   margin: 10px;
@@ -329,6 +329,9 @@ main {
   }
   .containerRedes {
     width: 70%;
+  }
+  .containerInfoEnlace {
+    width: 90%;
   }
 }
 
