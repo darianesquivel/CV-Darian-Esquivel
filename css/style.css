@@ -68,7 +68,8 @@ main {
 }
 
 .imgPerfil {
-  width: 250px;
+  width: 230px;
+  height: auto;
   border-radius: 150px;
 }
 
