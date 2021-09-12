@@ -262,11 +262,24 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.sectionCertificados h2 {
+  margin-bottom: 30px;
 }
 
 .sectionCertificados img {
-  width: 70%;
+  width: 50%;
   padding: 5px;
+}
+
+.certificados {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media (max-width: 800px) {
@@ -340,6 +353,15 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .certificados {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
