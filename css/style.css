@@ -34,6 +34,16 @@ main {
   font-size: 1.5rem;
 }
 
+.fuenteChica i {
+  font-size: 2rem;
+}
+
+.fuenteChica a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+}
+
 .fuenteMediana {
   font-size: 2rem;
 }
@@ -235,6 +245,22 @@ main {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+.dobleListaContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.dobleListaContainer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .containerRedes {

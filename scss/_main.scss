@@ -125,7 +125,16 @@
 .dobleLista {
   width: 100%;
   display: flex;
+
   justify-content: space-evenly;
+}
+
+.dobleListaContainer {
+  display: flex;
+  flex-direction: column;
+  div {
+    display: flex;
+  }
 }
 
 .containerRedes {
